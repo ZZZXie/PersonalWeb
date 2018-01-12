@@ -29,7 +29,7 @@
             <div class="content">
               <div class="inner">
                 <h1>Dimension</h1>
-                <p><!--[-->An undergraduate student studying <a href="eecs.umich.edu">Computer Science at the University of Michigan</a>.<!--]--><br />
+                <p><!--[-->就读于密西根大学安娜堡分校</a>.<!--]--><br />
               <!--[--> I am currently working as a undergraduate research assistant in <a href="https://mi2lab.com">Information Interaction Lab</a>.<!--]--></p>
               </div>
             </div>
@@ -39,6 +39,8 @@
                   <li><a href="#about">关于我</a></li>
                 
                   <li><a href="#work">工作经历</a></li>
+                
+                  <li><a href="#formspree">联系方式</a></li>
                 
               </ul>
             </nav>
@@ -67,14 +69,62 @@
   <p>
 <figure class="image main">
     
-        <img src="/images/pic02.jpg" />
+        <img src="/images/umich.png" />
     
     
 </figure>
 
-Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.</p>
+工作经历正在总结中。即将上线</p>
 
-<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat tempus.</p>
+</article>
+
+            
+              <article id="formspree">
+  <h1>邮件联系</h1>
+  <p><form id="contactform" method="post" action="https://formspree.io/zijian4fun@gmail.com">
+    <div class="field half first">
+        <input type="text" name="name" id="name" placeholder="姓名"/>
+    </div>
+    <div class="field half">
+        <input type="email" id="email" name="email" placeholder="邮箱地址">
+    </div>
+    <div class="field">
+        <textarea name="message" id="message" rows="4" placeholder="内容"></textarea>
+    </div>
+    <ul class="actions">
+        <li><input type="submit" value="提交" class="special" /></li>
+        <li><input type="reset" value="清空" /></li>
+    </ul>
+    <input type="hidden" name="_next" value="?sent#formspree" />
+    <input type="hidden" name="_subject" value="Subject for your mail like new message" />
+    <input type="text" name="_gotcha" style="display:none" />
+</form>
+<span id="contactformsent">Thank you for your message</span></p>
+
+<script>
+$(document).ready(function($) { 
+    $(function(){
+        if (window.location.search == "?sent") {
+            $('#contactform').hide();
+            $('#contactformsent').show();
+        } else {
+            $('#contactformsent').hide();
+        }
+    });
+});
+</script>
+
+<ul class="icons">
+
+	<li><a href="https://www.linkedin.com/in/zijian-xie/" class="icon fa-linkedin-square"><span class="label">linkedIn</span></a></li>
+
+	<li><a href="#" class="icon fa-facebook"><span class="label">facebook</span></a></li>
+
+	<li><a href="#" class="icon fa-instagram"><span class="label">instagram</span></a></li>
+
+	<li><a href="https://github.com/ZZZXie" class="icon fa-github"><span class="label">github</span></a></li>
+
+</ul>
 
 </article>
 
