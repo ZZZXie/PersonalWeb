@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: zzzxie.github.io/sitemap.xml
